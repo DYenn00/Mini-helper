@@ -6,7 +6,7 @@ I recent came across "Clippy" and I thought wow how cool, now all we have is ai 
 
 ###  Tools
 - **HTML5** – page structure  
-- **CSS3** – styling and animation  
+- **CSS** – styling and animation  
 - **JavaScript** – event handling and logic
 
 ***
