@@ -6,21 +6,21 @@ body {
   margin: 0;
 }
 
-buddy-container {
+minihelper-container {
   position: fixed;
   bottom: 20px;
   right: 20px;
   text-align: center;
 }
 
-buddy {
+minihelper {
   width: 100px;
   cursor: pointer;
   animation: float 3s ease-in-out infinite;
   transition: transform 0.2s;
 }
 
-buddy:hover {
+minihelper:hover {
   transform: scale(1.1);
 }
 
