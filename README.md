@@ -28,8 +28,8 @@ Any web browser. No installation required.
 #### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/DYenn00/helper-buddy.git
-   cd helper-buddy
+   git clone https://github.com/DYenn00/mini-helper.git
+   cd mini-helper
    ```
 2. Open `index.html` in your browser.  
 3. Click the helper buddy to see random popups appear!
