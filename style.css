@@ -1,1 +1,52 @@
-//Visual design and animations
+//visual design and animations
+body {
+  background-color: #f0f8ff;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+buddy-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+buddy {
+  width: 100px;
+  cursor: pointer;
+  animation: float 3s ease-in-out infinite;
+  transition: transform 0.2s;
+}
+
+buddy:hover {
+  transform: scale(1.1);
+}
+
+popup {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 8px;
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+}
+
+popup.show {
+  opacity: 1;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
