@@ -1,8 +1,5 @@
-# Mini-helper
+## Mini Helper✨  
 
-***
-
-## Helper Buddy✨  
 I recent came across "Clippy" and I thought wow how cool, now all we have is ai :( but not to worry! I've created a mini interactive javaScript assistant that pops up on your webpage to display random helpful mesages. 
 
 ***
