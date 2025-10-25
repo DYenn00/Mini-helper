@@ -1,6 +1,6 @@
 //logic for random messages and activity
 const popup = document.getElementById("popup");
-const buddy = document.getElementById("helper");
+const minihelper = document.getElementById("minihelper");
 
 const messages = [
   "Hey there! Need help?",
@@ -11,7 +11,7 @@ const messages = [
   "Keep your code clean and commented 🧹"
 ];
 
-buddy.addEventListener("click", () => {
+minihelper.addEventListener("click", () => {
   popup.textContent = messages[Math.floor(Math.random() * messages.length)];
   popup.classList.add("show");
 
