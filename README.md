@@ -50,5 +50,10 @@ Pull requests are welcome!
 1. Fork the repo  
 2. Create your feature branch (`git checkout -b feature-name`)  
 3. Commit changes (`git commit -m "Add new feature"`)  
-4. Push and open a pull request  
+4. Push and open a pull request
+
+***
+Happy Learning!! ✨
+
+-D.Yenn
 
